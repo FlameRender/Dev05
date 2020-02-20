@@ -1,0 +1,41 @@
+.pagination {
+  display: inline-block;
+  height: 100px;
+}
+
+
+.pagination a{
+  color: black;
+  float: left;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+#block1 {
+  background-color: #607D8B;
+  width: 100%;
+  margin-top: -21px;
+}
+
+body { 
+background-color:#FAFAFA;}
+
+.column1 {
+  float: left;
+  width: 50%;
+   height:500px;
+}
+.column2 {
+  float: right;
+  width: 50%;
+  height:500px;
+  background-color:red;
+}
+ 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
